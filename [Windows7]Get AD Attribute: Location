@@ -1,0 +1,2 @@
+$output = "E:\temp\Location.txt"
+Get-QADComputer -OSName 'Windows 7 E*' | format-table name, location, path | Out-File $output
